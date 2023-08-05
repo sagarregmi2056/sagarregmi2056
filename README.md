@@ -1,6 +1,5 @@
 
-
-[![MasterHead](https://user-images.githubusercontent.com/74038190/240820264-31edfb91-6645-4b85-b273-b5280b342e0b.gif)](https://sagarregmi2056.io)
+=
 
 
 
