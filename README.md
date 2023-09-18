@@ -12,7 +12,7 @@
 
 <p align="left"> <a href="https://twitter.com/" target="blank"><img src="https://img.shields.io/twitter/follow/?logo=twitter&style=for-the-badge" alt="" /></a> </p>
 
-- 🌱 I’m currently learning **Reactjs,Python,flutter**
+- 🌱 I’m currently learning **Typescript,Typeorm,java android**
 
 - 📫 How to reach me **sagarregmi2056@gmail.com**
 
