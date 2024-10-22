@@ -8,7 +8,7 @@
 
 <p align="left"> <a href="https://twitter.com/sagarre89519673" target="blank"><img src="https://img.shields.io/twitter/follow/sagarre89519673?logo=twitter&style=for-the-badge" alt="sagarre89519673" /></a> </p>
 
-- 🌱 I’m currently learning **Kotlin**
+- 🌱 I’m currently learning **React Native**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
