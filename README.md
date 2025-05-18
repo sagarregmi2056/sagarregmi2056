@@ -74,32 +74,73 @@ impl Developer {
   
 </div>
 
-## 🌟 Featured Projects
+## 🎨 Solana Program Showcase
 
-<table>
-  <tr>
-    <td width="50%">
-      <h3 align="center">🦀 Solana DeFi Protocol</h3>
-      <div align="center">
-        <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYjM0YTY5ZjFjODM0ZWM0ZjE3OGM4ZDM4MzBkY2ZjZDM4ZjI4ZjZlNyZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/HX5ySrKEsBwKfHFXD1/giphy.gif" width="100%" alt="DeFi Project"/>
-        <p><strong>Building next-gen DeFi on Solana</strong></p>
-      </div>
-    </td>
-    <td width="50%">
-      <h3 align="center">🎨 Solana NFT Platform</h3>
-      <div align="center">
-        <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNjk0NzBkYzM4ZmM4ZTM4MzM1ZjM4ZjM1ZjQ4NzM0ZmE4ZjI4NjM4YyZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/1n4FT4KRQkDvK0IO4X/giphy.gif" width="100%" alt="NFT Project"/>
-        <p><strong>Revolutionary NFT platform on Solana</strong></p>
-      </div>
-    </td>
-  </tr>
-</table>
+```rust
+/// A glimpse into my Solana development style
+#[program]
+pub mod defi_protocol {
+    use super::*;
+    
+    #[derive(Accounts)]
+    pub struct Initialize<'info> {
+        #[account(init, payer = authority, space = 8 + 32)]
+        pub vault: Account<'info, Vault>,
+        #[account(mut)]
+        pub authority: Signer<'info>,
+        pub system_program: Program<'info, System>,
+    }
 
-## 📊 GitHub Analytics
+    pub fn initialize(ctx: Context<Initialize>) -> Result<()> {
+        let vault = &mut ctx.accounts.vault;
+        vault.authority = ctx.accounts.authority.key();
+        msg!("🚀 Vault initialized successfully!");
+        Ok(())
+    }
+}
+```
+
+## 💫 Performance Metrics
 
 <div align="center">
-  <img height="180em" src="https://github-readme-stats-sagarregmi2057.vercel.app/api?username=sagarregmi2057&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=14F195&icon_color=14F195&text_color=FFFFFF"/>
-  <img height="180em" src="https://github-readme-stats-sagarregmi2057.vercel.app/api/top-langs/?username=sagarregmi2057&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=14F195&text_color=FFFFFF"/>
+
+```mermaid
+graph LR
+    A[Program Size] -->|Optimization| B[3.2 KB]
+    C[CPI Calls] -->|Efficiency| D[0.576 ms]
+    E[Memory Usage] -->|Zero-Copy| F[1.8 KB]
+    style A fill:#14F195,stroke:#14F195,stroke-width:2px
+    style B fill:#000000,stroke:#14F195,stroke-width:2px
+    style C fill:#14F195,stroke:#14F195,stroke-width:2px
+    style D fill:#000000,stroke:#14F195,stroke-width:2px
+    style E fill:#14F195,stroke:#14F195,stroke-width:2px
+    style F fill:#000000,stroke:#14F195,stroke-width:2px
+```
+
+</div>
+
+## 🌌 Solana Ecosystem Contributions
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <img src="https://img.shields.io/badge/SPL--Token-Contributions-14F195?style=for-the-badge&logo=solana" alt="SPL-Token"/>
+        <br />
+        "Enhanced token standards"
+      </td>
+      <td align="center">
+        <img src="https://img.shields.io/badge/Anchor-Optimizations-B7410E?style=for-the-badge&logo=anchor" alt="Anchor"/>
+        <br />
+        "Framework improvements"
+      </td>
+      <td align="center">
+        <img src="https://img.shields.io/badge/Metaplex-Innovations-FF69B4?style=for-the-badge&logo=solana" alt="Metaplex"/>
+        <br />
+        "NFT infrastructure"
+      </td>
+    </tr>
+  </table>
 </div>
 
 ## 🎯 Current Focus
@@ -120,14 +161,6 @@ mindmap
       Zero-Copy
       CPI Optimization
 ```
-
-## 💫 Achievements & Contributions
-
-<div align="center">
-  
-  [![trophy](https://github-profile-trophy.vercel.app/?username=sagarregmi2057&theme=darkhub&no-frame=true&row=1&column=6)](https://github.com/ryo-ma/github-profile-trophy)
-  
-</div>
 
 ## 🎵 Vibing to the Sound of Solana:
 
@@ -167,9 +200,98 @@ mindmap
   <img src="https://komarev.com/ghpvc/?username=sagarregmi2057&label=Profile%20views&color=14F195&style=flat" alt="Profile views"/>
 </div>
 
-<!-- Snake animation -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sagarregmi2057/sagarregmi2057/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/sagarregmi2057/sagarregmi2057/output/github-contribution-grid-snake.svg">
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/sagarregmi2057/sagarregmi2057/output/github-contribution-grid-snake.svg">
-</picture> 
+## 🌠 Solana Development Journey
+
+<div align="center">
+
+```ascii
+                      .─────────────.                      
+                    ,'             ,'`.                    
+                  ,'             ,'    `.                  
+                ,'             ,'        `.                
+              ,'             ,'            `.              
+            ,'             ,'     ⭐         `.            
+          ,'             ,'                   `.          
+        ,'  SOLANA     ,'          ⭐           `.        
+      ,'  ECOSYSTEM  ,'                          `.      
+    ,'             ,'            ⭐                `.    
+  ,'   ⭐         ,'                                `.  
+,'             ,'                                    `.
+`.           ,'                                     ,'
+  `.       ,'                            ⭐       ,'  
+    `.   ,'                                    ,'    
+      `,'                                    ,'      
+        `.                                 ,'        
+          `.                ⭐           ,'          
+            `.                        ,'            
+              `.                    ,'              
+                `.     ⭐         ,'                
+                  `.            ,'                  
+                    `.       ,'                    
+                      `─────'                      
+```
+
+<table>
+  <tr>
+    <td align="center" width="33%">
+      <img src="https://img.shields.io/badge/TPS-65K+-14F195?style=for-the-badge&logo=solana" alt="TPS"/>
+      <br />
+      <sub><b>Performance Focused</b></sub>
+    </td>
+    <td align="center" width="33%">
+      <img src="https://img.shields.io/badge/Latency-400ms-14F195?style=for-the-badge&logo=solana" alt="Latency"/>
+      <br />
+      <sub><b>Speed Optimized</b></sub>
+    </td>
+    <td align="center" width="33%">
+      <img src="https://img.shields.io/badge/Cost-$0.00025-14F195?style=for-the-badge&logo=solana" alt="Cost"/>
+      <br />
+      <sub><b>Cost Efficient</b></sub>
+    </td>
+  </tr>
+</table>
+
+<details>
+<summary>🔮 Future Roadmap</summary>
+
+```mermaid
+timeline
+    title Solana Development Milestones
+    2025 Q1 : Zero-Copy : Implementation : Performance Optimization
+    2025 Q2 : Custom SPL : Token Standards : DeFi Integration
+    2025 Q3 : Metaplex : NFT Infrastructure : Gaming Protocols
+    2025 Q4 : Cross-Chain : Bridge Development : Ecosystem Expansion
+```
+
+</details>
+
+<br/>
+
+<table>
+  <tr>
+    <td>
+      <img src="https://img.shields.io/badge/Rust-Proficiency-B7410E?style=flat-square&logo=rust" alt="Rust"/>
+      <div style="width: 120px; background: #1A1B1E; border-radius: 3px; padding: 2px;">
+        <div style="width: 95%; background: #B7410E; height: 8px; border-radius: 2px;"></div>
+      </div>
+    </td>
+    <td>
+      <img src="https://img.shields.io/badge/Solana-Expertise-14F195?style=flat-square&logo=solana" alt="Solana"/>
+      <div style="width: 120px; background: #1A1B1E; border-radius: 3px; padding: 2px;">
+        <div style="width: 90%; background: #14F195; height: 8px; border-radius: 2px;"></div>
+      </div>
+    </td>
+    <td>
+      <img src="https://img.shields.io/badge/Web3-Innovation-FF69B4?style=flat-square&logo=web3.js" alt="Web3"/>
+      <div style="width: 120px; background: #1A1B1E; border-radius: 3px; padding: 2px;">
+        <div style="width: 85%; background: #FF69B4; height: 8px; border-radius: 2px;"></div>
+      </div>
+    </td>
+  </tr>
+</table>
+
+</div>
+
+<div align="center">
+  <sub>Built with ❤️ and 🦀 by Sagar Regmi</sub>
+</div> 
