@@ -41,7 +41,7 @@ impl Developer {
     fn new() -> Self {
         Developer {
             name: String::from("Sagar Regmi"),
-            location: String::from("Germany"),
+            location: String::from("Nepal"),
             company: String::from("TrustledgerAi.com"),
             role: String::from("Solana Developer"),
             focus: vec![
@@ -105,16 +105,17 @@ pub mod defi_protocol {
 <div align="center">
 
 ```mermaid
+%%{init: {'theme': 'base', 'themeVariables': { 'fontFamily': 'monospace', 'primaryColor': '#14F195', 'primaryTextColor': '#000000', 'lineColor': '#14F195', 'fontSize': '16px'}}}%%
 graph LR
     A[Program Size] -->|Optimization| B[3.2 KB]
     C[CPI Calls] -->|Efficiency| D[0.576 ms]
     E[Memory Usage] -->|Zero-Copy| F[1.8 KB]
-    style A fill:#14F195,stroke:#14F195,stroke-width:2px
-    style B fill:#000000,stroke:#14F195,stroke-width:2px
-    style C fill:#14F195,stroke:#14F195,stroke-width:2px
-    style D fill:#000000,stroke:#14F195,stroke-width:2px
-    style E fill:#14F195,stroke:#14F195,stroke-width:2px
-    style F fill:#000000,stroke:#14F195,stroke-width:2px
+    style A fill:#FFFFFF,stroke:#14F195,stroke-width:2px,color:#000000
+    style B fill:#FFFFFF,stroke:#14F195,stroke-width:2px,color:#000000
+    style C fill:#FFFFFF,stroke:#14F195,stroke-width:2px,color:#000000
+    style D fill:#FFFFFF,stroke:#14F195,stroke-width:2px,color:#000000
+    style E fill:#FFFFFF,stroke:#14F195,stroke-width:2px,color:#000000
+    style F fill:#FFFFFF,stroke:#14F195,stroke-width:2px,color:#000000
 ```
 
 </div>
