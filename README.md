@@ -1,15 +1,15 @@
-<div align="center" style="background:rgb(8, 43, 96); color: white; padding: 40px; min-height: 100vh; width: 100%;">
+<div align="center" style="background: linear-gradient(135deg, rgba(8, 43, 96, 0.9), rgba(8, 43, 96, 0.4)); backdrop-filter: blur(10px); color: white; padding: 40px; min-height: 100vh; width: 100%; border: 1px solid rgba(255, 255, 255, 0.1); border-radius: 16px;">
 
-# <div align="center">
+# <div align="center" style="background: rgba(255, 255, 255, 0.1); padding: 20px; border-radius: 16px; backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.1);">
   <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35" alt="wave"/> 
   Hi, I'm Sagar Regmi
 </div>
 
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=header&text=Full%20Stack%20Developer&fontSize=40&fontAlignY=35&animation=twinkling&fontColor=FFFFFF" width="100%" />
+<div align="center" style="margin: 30px 0;">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=header&text=Full%20Stack%20Developer&fontSize=40&fontAlignY=35&animation=twinkling&fontColor=FFFFFF" width="100%" style="border-radius: 10px;" />
 </div>
 
-<div align="center">
+<div align="center" style="background: rgba(255, 255, 255, 0.05); padding: 20px; border-radius: 16px; backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.1); margin: 20px 0;">
   <!-- Custom badges with gradient backgrounds -->
   <a href="https://nodejs.org" target="_blank">
     <img src="https://img.shields.io/badge/Node.js-Developer-gradient?style=for-the-badge&logo=node.js&logoColor=white&labelColor=339933&color=000000"/>
@@ -29,14 +29,16 @@
 
 <div align="center">
   <!-- Gradient line -->
-  <img src="https://i.imgur.com/dBaSKWF.gif" height="20" width="100%">
+  <img src="https://i.imgur.com/dBaSKWF.gif" height="20" width="100%" style="margin: 20px 0;"/>
 </div>
 
-<div align="right">
+<div align="right" style="background: rgba(20, 241, 149, 0.1); padding: 20px; border-radius: 16px; backdrop-filter: blur(10px); border: 1px solid rgba(20, 241, 149, 0.2); margin: 20px 0;">
   <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=600&size=22&duration=2000&pause=1000&color=14F195&center=true&vCenter=true&multiline=true&repeat=true&width=435&height=100&lines=Building+Smart+Contracts;Crafting+Web3+Solutions;Innovating+with+Blockchain" alt="Coding Animation"/>
 </div>
 
 ## 🚀 About Me
+
+<div style="background: rgba(255, 255, 255, 0.05); padding: 20px; border-radius: 16px; backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.1);">
 
 ```javascript
 const developer = {
@@ -60,6 +62,8 @@ const developer = {
     funFact: "I debug smart contracts in my dreams"
 };
 ```
+
+</div>
 
 <div align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&duration=2000&pause=1000&color=14F195&center=true&vCenter=true&multiline=true&width=800&height=384&lines=%23[program];pub+mod+token_vault+%7B;++++use+anchor_lang::prelude::*%3B;++++%23[derive(Accounts)];++++pub+struct+Initialize%3C'info%3E+%7B;++++++++%23[account(init%2C+payer+%3D+authority)];++++++++pub+vault%3A+Account%3C'info%2C+TokenVault%3E%2C;++++++++pub+authority%3A+Signer%3C'info%3E%2C;++++++++pub+system_program%3A+Program%3C'info%2C+System%3E;++++%7D;++++pub+fn+initialize(ctx%3A+Context%3CInitialize%3E)+-%3E+Result%3C()%3E+%7B;++++++++msg!(%22%F0%9F%9A%80+Initializing+token+vault...%22)%3B;++++++++Ok(()));++++%7D;%7D" alt="Typing SVG" />
@@ -95,7 +99,7 @@ pub struct TokenVault {
 
 ## 🛠️ Tech Stack
 
-<div align="center">
+<div align="center" style="background: rgba(255, 255, 255, 0.05); padding: 20px; border-radius: 16px; backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.1); margin: 20px 0;">
   <!-- Blockchain & Web3 -->
   <a href="https://solana.com" target="_blank">
     <img src="https://img.shields.io/badge/-Solana-000000?style=for-the-badge&logo=solana&logoColor=14F195" alt="Solana"/>
@@ -134,17 +138,17 @@ pub struct TokenVault {
 </div>
 
 <!-- Tech Stack Icons in Compact Format -->
-<div align="center">
+<div align="center" style="background: rgba(255, 255, 255, 0.05); padding: 20px; border-radius: 16px; backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.1); margin: 20px 0;">
   <p>
     <img src="https://skillicons.dev/icons?i=solana,rust,nodejs,react,typescript,mongodb,docker,aws" />
   </p>
 </div>
 
-<div align="center">
+<div align="center" style="background: rgba(255, 255, 255, 0.05); padding: 20px; border-radius: 16px; backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.1); margin: 20px 0;">
   <img src="https://komarev.com/ghpvc/?username=sagarregmi2057&label=Profile%20views&color=61DAFB&style=flat" alt="Profile views"/>
 </div>
 
-<div align="center">
+<div align="center" style="margin-top: 40px;">
   <sub>Built with ❤️ and 🦀 Rust | Powered by ⚡ Solana and 🌐 Web3 | Crafted by Sagar Regmi</sub>
 </div>
 
