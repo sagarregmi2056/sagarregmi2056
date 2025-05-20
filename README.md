@@ -59,9 +59,37 @@ const developer = {
 };
 ```
 
-<div align="center" style="background: linear-gradient(135deg, #1a1c2c 0%, #4a569d 100%); padding: 20px; border-radius: 10px;">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=sagarregmi2057&theme=radical&hide_border=true&background=0D1117&stroke=0D1117&ring=61DAFB&fire=61DAFB&currStreakLabel=61DAFB" alt="GitHub Streak Stats"/>
+<div align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&duration=2000&pause=1000&color=14F195&center=true&vCenter=true&multiline=true&width=800&height=384&lines=%23[program];pub+mod+token_vault+%7B;++++use+anchor_lang::prelude::*%3B;++++%23[derive(Accounts)];++++pub+struct+Initialize%3C'info%3E+%7B;++++++++%23[account(init%2C+payer+%3D+authority)];++++++++pub+vault%3A+Account%3C'info%2C+TokenVault%3E%2C;++++++++pub+authority%3A+Signer%3C'info%3E%2C;++++++++pub+system_program%3A+Program%3C'info%2C+System%3E;++++%7D;++++pub+fn+initialize(ctx%3A+Context%3CInitialize%3E)+-%3E+Result%3C()%3E+%7B;++++++++msg!(%22%F0%9F%9A%80+Initializing+token+vault...%22)%3B;++++++++Ok(());++++%7D;%7D" alt="Typing SVG" />
 </div>
+
+<!-- Static Code Display -->
+```rust
+#[program]
+pub mod token_vault {
+    use anchor_lang::prelude::*;
+
+    #[derive(Accounts)]
+    pub struct Initialize<'info> {
+        #[account(init, payer = authority)]
+        pub vault: Account<'info, TokenVault>,
+        pub authority: Signer<'info>,
+        pub system_program: Program<'info, System>
+    }
+
+    pub fn initialize(ctx: Context<Initialize>) -> Result<()> {
+        msg!("🚀 Initializing token vault...");
+        Ok(())
+    }
+}
+
+#[account]
+pub struct TokenVault {
+    pub authority: Pubkey,    // 32
+    pub token_mint: Pubkey,   // 32
+    pub token_account: Pubkey // 32
+}
+```
 
 ## 🛠️ Tech Stack
 
