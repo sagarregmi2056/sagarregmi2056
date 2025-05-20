@@ -1,9 +1,15 @@
-<div align="center" style="background: linear-gradient(135deg, #1a1c2c 0%, #4a569d 100%); color: white; padding: 40px; border-radius: 20px; margin: 20px; min-height: 100vh; width: 100%;">
+<div align="center" style="background:rgb(8, 43, 96); color: white; padding: 40px; min-height: 100vh; width: 100%;">
 
-# <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"> Hi, I'm Sagar Regmi
+# <div align="center">
+  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35" alt="wave"/> 
+  Hi, I'm Sagar Regmi
+</div>
 
-<div align="center" style="background: linear-gradient(135deg, #1a1c2c 0%, #4a569d 100%); padding: 20px; border-radius: 10px;">
-  
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=header&text=Full%20Stack%20Developer&fontSize=40&fontAlignY=35&animation=twinkling&fontColor=FFFFFF" width="100%" />
+</div>
+
+<div align="center">
   <!-- Custom badges with gradient backgrounds -->
   <a href="https://nodejs.org" target="_blank">
     <img src="https://img.shields.io/badge/Node.js-Developer-gradient?style=for-the-badge&logo=node.js&logoColor=white&labelColor=339933&color=000000"/>
@@ -106,15 +112,31 @@ const developer = {
 
 ## 🎵 Development Playlist
 
-<h3 align="center">🎧 Now Playing: Web3 Symphony in Full Stack Major</h3>
-
 <div align="center">
 
-⏮️ &nbsp;&nbsp; ⏪ &nbsp;&nbsp; ▶️ &nbsp;&nbsp; ⏩ &nbsp;&nbsp; ⏭️
+# 🎧 Now Playing: Web3 Symphony in Full Stack Major
 
-<img src="https://progress-bar.dev/45/?title=Progress&width=500&color=61DAFB">
+<br>
 
-<p align="right"><code>12:30 / 45:00</code></p>
+<div align="center">
+  <img width="70" height="70" src="https://img.icons8.com/ios-filled/50/FFFFFF/skip-to-start--v1.png" alt="skip-to-start"/>
+  &nbsp;&nbsp;&nbsp;
+  <img width="70" height="70" src="https://img.icons8.com/ios-filled/50/FFFFFF/rewind.png" alt="rewind"/>
+  &nbsp;&nbsp;&nbsp;
+  <img width="70" height="70" src="https://img.icons8.com/ios-filled/50/FFFFFF/play.png" alt="play" style="background: #0088ff; border-radius: 8px;"/>
+  &nbsp;&nbsp;&nbsp;
+  <img width="70" height="70" src="https://img.icons8.com/ios-filled/50/FFFFFF/fast-forward.png" alt="fast-forward"/>
+  &nbsp;&nbsp;&nbsp;
+  <img width="70" height="70" src="https://img.icons8.com/ios-filled/50/FFFFFF/end.png" alt="end"/>
+</div>
+
+<br>
+
+<div align="right" style="padding-right: 20px;">
+  <code style="color: #fff;">12:30 / 45:00</code>
+</div>
+
+<br>
 
 ```
 🎼 Dev Playlist:
