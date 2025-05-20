@@ -60,7 +60,7 @@ const developer = {
 ```
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&duration=2000&pause=1000&color=14F195&center=true&vCenter=true&multiline=true&width=800&height=384&lines=%23[program];pub+mod+token_vault+%7B;++++use+anchor_lang::prelude::*%3B;++++%23[derive(Accounts)];++++pub+struct+Initialize%3C'info%3E+%7B;++++++++%23[account(init%2C+payer+%3D+authority)];++++++++pub+vault%3A+Account%3C'info%2C+TokenVault%3E%2C;++++++++pub+authority%3A+Signer%3C'info%3E%2C;++++++++pub+system_program%3A+Program%3C'info%2C+System%3E;++++%7D;++++pub+fn+initialize(ctx%3A+Context%3CInitialize%3E)+-%3E+Result%3C()%3E+%7B;++++++++msg!(%22%F0%9F%9A%80+Initializing+token+vault...%22)%3B;++++++++Ok(());++++%7D;%7D" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&duration=2000&pause=1000&color=14F195&center=true&vCenter=true&multiline=true&width=800&height=384&lines=%23[program];pub+mod+token_vault+%7B;++++use+anchor_lang::prelude::*%3B;++++%23[derive(Accounts)];++++pub+struct+Initialize%3C'info%3E+%7B;++++++++%23[account(init%2C+payer+%3D+authority)];++++++++pub+vault%3A+Account%3C'info%2C+TokenVault%3E%2C;++++++++pub+authority%3A+Signer%3C'info%3E%2C;++++++++pub+system_program%3A+Program%3C'info%2C+System%3E;++++%7D;++++pub+fn+initialize(ctx%3A+Context%3CInitialize%3E)+-%3E+Result%3C()%3E+%7B;++++++++msg!(%22%F0%9F%9A%80+Initializing+token+vault...%22)%3B;++++++++Ok(()));++++%7D;%7D" alt="Typing SVG" />
 </div>
 
 <!-- Static Code Display -->
@@ -185,4 +185,50 @@ pub struct TokenVault {
   <sub>Built with ❤️ and 🦀 Rust | Powered by ⚡ Solana and 🌐 Web3 | Crafted by Sagar Regmi</sub>
 </div>
 
+</div>
+
+```mermaid
+graph TD
+    classDef blockchain fill:#14F195,stroke:#13D185,stroke-width:2px,color:white;
+    classDef frontend fill:#61DAFB,stroke:#50C9EA,stroke-width:2px,color:white;
+    classDef backend fill:#FF6B6B,stroke:#EE5A5A,stroke-width:2px,color:white;
+    classDef database fill:#845EF7,stroke:#734DE6,stroke-width:2px,color:white;
+
+    Client[("🌐 Client\nWeb/Mobile")] --> Frontend["⚛️ Frontend\nReact + TypeScript"]
+    Frontend --> Backend["🔧 Backend\nNode.js + Express"]
+    Backend --> Blockchain["⛓️ Blockchain Layer"]
+    Backend --> Database[("🗄️ Database\nMongoDB")]
+    
+    subgraph Blockchain ["🔗 Blockchain Infrastructure"]
+        direction TB
+        Solana["☀️ Solana Programs\nRust + Anchor"] --> SolanaNet["Solana Network"]
+        Ethereum["⟠ Ethereum Contracts\nSolidity"] --> EthNet["Ethereum Network"]
+    end
+
+    subgraph Frontend ["🎨 Frontend Components"]
+        direction TB
+        UI["UI Components"] --> State["State Management"]
+        State --> Web3["Web3 Integration"]
+    end
+
+    subgraph Backend ["🛠️ Backend Services"]
+        direction TB
+        API["REST API"] --> Auth["Authentication"]
+        Auth --> Services["Business Logic"]
+        Services --> Cache["Redis Cache"]
+    end
+
+    style Blockchain fill:#0d1117,stroke:#14F195,stroke-width:2px;
+    style Frontend fill:#0d1117,stroke:#61DAFB,stroke-width:2px;
+    style Backend fill:#0d1117,stroke:#FF6B6B,stroke-width:2px;
+
+    class Solana,SolanaNet blockchain;
+    class Ethereum,EthNet blockchain;
+    class UI,State,Web3 frontend;
+    class API,Auth,Services,Cache backend;
+    class Database database;
+```
+
+<div align="center">
+  <sub><i>Interactive architecture diagram showcasing the full-stack blockchain ecosystem</i></sub>
 </div>
