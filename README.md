@@ -1,4 +1,3 @@
-
 <div align="center" style="background: linear-gradient(135deg, #1a1c2c 0%, #4a569d 100%); color: white; padding: 40px; border-radius: 20px; margin: 20px; min-height: 100vh; width: 100%;">
 
 # <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"> Hi, I'm Sagar Regmi
@@ -62,148 +61,78 @@ const developer = {
 
 <div align="center">
   <!-- Blockchain & Web3 -->
-  ![Solana](https://img.shields.io/badge/-Solana-000000?style=for-the-badge&logo=solana&logoColor=14F195)
-  ![Ethereum](https://img.shields.io/badge/-Ethereum-000000?style=for-the-badge&logo=ethereum&logoColor=3C3C3D)
-  ![Rust](https://img.shields.io/badge/-Rust-000000?style=for-the-badge&logo=rust&logoColor=B7410E)
-  ![Web3.js](https://img.shields.io/badge/-Web3.js-000000?style=for-the-badge&logo=web3.js&logoColor=F16822)
+  <a href="https://solana.com" target="_blank">
+    <img src="https://img.shields.io/badge/-Solana-000000?style=for-the-badge&logo=solana&logoColor=14F195" alt="Solana"/>
+  </a>
+  <a href="https://ethereum.org" target="_blank">
+    <img src="https://img.shields.io/badge/-Ethereum-000000?style=for-the-badge&logo=ethereum&logoColor=3C3C3D" alt="Ethereum"/>
+  </a>
+  <a href="https://www.rust-lang.org/" target="_blank">
+    <img src="https://img.shields.io/badge/-Rust-000000?style=for-the-badge&logo=rust&logoColor=B7410E" alt="Rust"/>
+  </a>
+  <a href="https://web3js.readthedocs.io/" target="_blank">
+    <img src="https://img.shields.io/badge/-Web3.js-000000?style=for-the-badge&logo=web3.js&logoColor=F16822" alt="Web3.js"/>
+  </a>
   
   <!-- Full Stack -->
-  ![Node.js](https://img.shields.io/badge/-Node.js-000000?style=for-the-badge&logo=node.js&logoColor=339933)
-  ![React](https://img.shields.io/badge/-React-000000?style=for-the-badge&logo=react&logoColor=61DAFB)
-  ![TypeScript](https://img.shields.io/badge/-TypeScript-000000?style=for-the-badge&logo=typescript&logoColor=3178C6)
-  ![MongoDB](https://img.shields.io/badge/-MongoDB-000000?style=for-the-badge&logo=mongodb&logoColor=47A248)
+  <a href="https://nodejs.org" target="_blank">
+    <img src="https://img.shields.io/badge/-Node.js-000000?style=for-the-badge&logo=node.js&logoColor=339933" alt="Node.js"/>
+  </a>
+  <a href="https://reactjs.org/" target="_blank">
+    <img src="https://img.shields.io/badge/-React-000000?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React"/>
+  </a>
+  <a href="https://www.typescriptlang.org/" target="_blank">
+    <img src="https://img.shields.io/badge/-TypeScript-000000?style=for-the-badge&logo=typescript&logoColor=3178C6" alt="TypeScript"/>
+  </a>
+  <a href="https://www.mongodb.com/" target="_blank">
+    <img src="https://img.shields.io/badge/-MongoDB-000000?style=for-the-badge&logo=mongodb&logoColor=47A248" alt="MongoDB"/>
+  </a>
   
   <!-- DevOps & Cloud -->
-  ![Docker](https://img.shields.io/badge/-Docker-000000?style=for-the-badge&logo=docker&logoColor=2496ED)
-  ![AWS](https://img.shields.io/badge/-AWS-000000?style=for-the-badge&logo=amazon-aws&logoColor=FF9900)
+  <a href="https://www.docker.com/" target="_blank">
+    <img src="https://img.shields.io/badge/-Docker-000000?style=for-the-badge&logo=docker&logoColor=2496ED" alt="Docker"/>
+  </a>
+  <a href="https://aws.amazon.com/" target="_blank">
+    <img src="https://img.shields.io/badge/-AWS-000000?style=for-the-badge&logo=amazon-aws&logoColor=FF9900" alt="AWS"/>
+  </a>
 </div>
 
-## 💻 Code Showcase
-
-```rust
-// Solana Program Example
-#[program]
-pub mod defi_protocol {
-    use super::*;
-    
-    pub fn initialize_vault(ctx: Context<InitializeVault>) -> Result<()> {
-        let vault = &mut ctx.accounts.vault;
-        vault.authority = ctx.accounts.authority.key();
-        vault.total_balance = 0;
-        msg!("🚀 DeFi vault initialized successfully!");
-        Ok(())
-    }
-}
-
-// Smart Contract Example (Ethereum)
-contract TokenVault {
-    mapping(address => uint256) private balances;
-    
-    function deposit() public payable {
-        balances[msg.sender] += msg.value;
-        emit Deposit(msg.sender, msg.value);
-    }
-}
-
-// Full Stack Integration
-const initializeBlockchain = async () => {
-    try {
-        const connection = await setupConnection();
-        const wallet = await connectWallet();
-        return {
-            success: true,
-            message: "Blockchain connection established"
-        };
-    } catch (error) {
-        console.error("Initialization failed:", error);
-        throw error;
-    }
-};
-```
-
-## 💫 Performance Metrics
-
-<div align="center" style="background: linear-gradient(135deg, #1a1c2c 0%, #4a569d 100%); padding: 20px; border-radius: 10px;">
-
-```mermaid
-%%{init: {'theme': 'base', 'themeVariables': { 'fontFamily': 'monospace', 'primaryColor': '#61DAFB', 'primaryTextColor': '#000000', 'lineColor': '#61DAFB', 'fontSize': '16px'}}}%%
-graph LR
-    A[API Response] -->|Optimization| B[<50ms]
-    C[Database Queries] -->|Efficiency| D[<10ms]
-    E[Frontend Load] -->|Performance| F[<2s]
-    style A fill:#FFFFFF,stroke:#61DAFB,stroke-width:2px,color:#000000
-    style B fill:#FFFFFF,stroke:#61DAFB,stroke-width:2px,color:#000000
-    style C fill:#FFFFFF,stroke:#61DAFB,stroke-width:2px,color:#000000
-    style D fill:#FFFFFF,stroke:#61DAFB,stroke-width:2px,color:#000000
-    style E fill:#FFFFFF,stroke:#61DAFB,stroke-width:2px,color:#000000
-    style F fill:#FFFFFF,stroke:#61DAFB,stroke-width:2px,color:#000000
-```
-
-</div>
-
-## 🌟 Project Highlights
-
+<!-- Tech Stack Icons in Compact Format -->
 <div align="center">
-  <table>
-    <tr>
-      <td align="center">
-        <img src="https://img.shields.io/badge/DeFi-Protocol-14F195?style=for-the-badge&logo=solana" alt="DeFi"/>
-        <br />
-        "Smart contract solutions"
-      </td>
-      <td align="center">
-        <img src="https://img.shields.io/badge/NFT-Marketplace-61DAFB?style=for-the-badge&logo=ethereum" alt="NFT"/>
-        <br />
-        "Web3 innovations"
-      </td>
-      <td align="center">
-        <img src="https://img.shields.io/badge/Full--Stack-Apps-FF69B4?style=for-the-badge&logo=react" alt="Apps"/>
-        <br />
-        "Modern applications"
-      </td>
-    </tr>
-  </table>
+  <p>
+    <img src="https://skillicons.dev/icons?i=solana,rust,nodejs,react,typescript,mongodb,docker,aws" />
+  </p>
 </div>
-
-## 🎯 Current Focus
-
-```mermaid
-mindmap
-  root((Developer))
-    Blockchain
-      Solana
-      Ethereum
-      Smart Contracts
-    Backend
-      Node.js
-      Express
-      MongoDB
-    Frontend
-      React
-      Next.js
-      TypeScript
-    Web3
-      DeFi
-      NFTs
-      DAOs
-```
 
 ## 🎵 Development Playlist:
 
-<div align="center">
-```ascii
-♪♫•*¨*•.¸¸♫•*¨*•.¸¸♪
-🎧 Now Playing: Web3 Symphony in Full Stack Major
-═══════════════════ ⠂▶
-◄◄⠀▐▐⠀►►⠀⠀ ▇:𝟙𝟚:𝟛𝟘⠀►⠀∞:∞/∞:∞⠀⠀ ▌ ▌⠀⠀ ♫ ♪ ♫
-
-🎼 Dev Playlist:
-├── 01. Blockchain Beat
-├── 02. Solana Sonata
-├── 03. Ethereum Etude
-├── 04. React Remix
-└── 05. Node.js Nocturne
-```
+<div align="center" style="background: rgba(26, 28, 44, 0.5); padding: 20px; border-radius: 10px; backdrop-filter: blur(5px);">
+  <div style="border: 1px solid #2a2d3e; padding: 15px; border-radius: 8px; background: rgba(0, 0, 0, 0.2);">
+    <p align="left" style="font-family: monospace; color: #61DAFB;">
+      🎧 Now Playing: Web3 Symphony in Full Stack Major
+    </p>
+    <div style="display: flex; align-items: center; justify-content: center; margin: 10px 0;">
+      ⏮️ ⏪ ▶️ ⏩ ⏭️
+    </div>
+    <div style="background: #2a2d3e; height: 4px; width: 100%; border-radius: 2px; margin: 10px 0;">
+      <div style="background: #61DAFB; width: 45%; height: 100%; border-radius: 2px;"></div>
+    </div>
+    <p align="right" style="font-family: monospace; color: #61DAFB;">12:30 / 45:00</p>
+    
+    <div style="margin-top: 15px; text-align: left; font-family: monospace;">
+      🎼 Dev Playlist:
+      <br/>
+      ├── 01. Blockchain Beat        ▶️
+      <br/>
+      ├── 02. Solana Sonata         
+      <br/>
+      ├── 03. Ethereum Etude        
+      <br/>
+      ├── 04. React Remix           
+      <br/>
+      └── 05. Node.js Nocturne      
+    </div>
+  </div>
 </div>
 
 <div align="center">
