@@ -67,78 +67,9 @@ const developer = {
 
 </div>
 
-## <svg width="24" height="24" viewBox="0 0 24 24" fill="none" style="vertical-align: middle; margin-right: 8px;">
-  <path d="M20 6h-4V4c0-1.11-.89-2-2-2h-4c-1.11 0-2 .89-2 2v2H4c-1.11 0-1.99.89-1.99 2L2 19c0 1.11.89 2 2 2h16c1.11 0 2-.89 2-2V8c0-1.11-.89-2-2-2zm-6 0h-4V4h4v2z" fill="#14F195"/>
-</svg> Work Experience
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; padding: 20px;">
   
-  <!-- CheckerChain -->
-  <div style="background: rgba(255, 255, 255, 0.05); border-radius: 16px; padding: 20px; backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.1); transition: transform 0.2s;">
-    <div style="display: flex; align-items: center; margin-bottom: 15px;">
-      <div style="display: flex; align-items: center;">
-        <img src="https://img.icons8.com/fluency/48/blockchain-technology.png" width="32" height="32" style="margin-right: 12px;"/>
-        <h3 style="color: #00E676; margin: 0; font-size: 1.5em;">CheckerChain</h3>
-      </div>
-      <p style="color: #ccc; margin: 0 0 0 auto; font-size: 0.9em;">2023 - Present</p>
-    </div>
-    <h4 style="color: #61DAFB; margin: 10px 0;">Blockchain Developer</h4>
-    <ul style="color: #fff; margin: 10px 0; padding-left: 20px;">
-      <li>Developed smart contracts for decentralized verification systems</li>
-      <li>Implemented blockchain-based identity management solutions</li>
-      <li>Optimized gas efficiency for Solana and Ethereum contracts</li>
-    </ul>
-    <div style="margin-top: 15px; display: flex; gap: 8px;">
-      <span style="background: rgba(0, 0, 0, 0.3); padding: 5px 10px; border-radius: 5px; color: #fff; font-size: 0.9em;">Solana</span>
-      <span style="background: rgba(0, 0, 0, 0.3); padding: 5px 10px; border-radius: 5px; color: #fff; font-size: 0.9em;">Rust</span>
-      <span style="background: rgba(0, 0, 0, 0.3); padding: 5px 10px; border-radius: 5px; color: #fff; font-size: 0.9em;">Web3</span>
-    </div>
-  </div>
-
-  <!-- BotOverload -->
-  <div style="background: rgba(255, 255, 255, 0.05); border-radius: 16px; padding: 20px; backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.1); transition: transform 0.2s;">
-    <div style="display: flex; align-items: center; margin-bottom: 15px;">
-      <div style="display: flex; align-items: center;">
-        <img src="https://img.icons8.com/fluency/48/bot.png" width="32" height="32" style="margin-right: 12px;"/>
-        <h3 style="color: #FF4081; margin: 0; font-size: 1.5em;">BotOverload</h3>
-      </div>
-      <p style="color: #ccc; margin: 0 0 0 auto; font-size: 0.9em;">2022 - 2023</p>
-    </div>
-    <h4 style="color: #61DAFB; margin: 10px 0;">Full Stack Developer</h4>
-    <ul style="color: #fff; margin: 10px 0; padding-left: 20px;">
-      <li>Built AI-powered social automation platform</li>
-      <li>Developed real-time messaging and bot management system</li>
-      <li>Implemented secure authentication and data privacy measures</li>
-    </ul>
-    <div style="margin-top: 15px; display: flex; gap: 8px;">
-      <span style="background: rgba(0, 0, 0, 0.3); padding: 5px 10px; border-radius: 5px; color: #fff; font-size: 0.9em;">Node.js</span>
-      <span style="background: rgba(0, 0, 0, 0.3); padding: 5px 10px; border-radius: 5px; color: #fff; font-size: 0.9em;">React</span>
-      <span style="background: rgba(0, 0, 0, 0.3); padding: 5px 10px; border-radius: 5px; color: #fff; font-size: 0.9em;">AI/ML</span>
-    </div>
-  </div>
-
-  <!-- TrustLedger -->
-  <div style="background: rgba(255, 255, 255, 0.05); border-radius: 16px; padding: 20px; backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.1); transition: transform 0.2s;">
-    <div style="display: flex; align-items: center; margin-bottom: 15px;">
-      <div style="display: flex; align-items: center;">
-        <img src="https://img.icons8.com/fluency/48/trust.png" width="32" height="32" style="margin-right: 12px;"/>
-        <h3 style="color: #7C4DFF; margin: 0; font-size: 1.5em;">TrustLedger AI</h3>
-      </div>
-      <p style="color: #ccc; margin: 0 0 0 auto; font-size: 0.9em;">2021 - 2022</p>
-    </div>
-    <h4 style="color: #61DAFB; margin: 10px 0;">Smart Contract Engineer</h4>
-    <ul style="color: #fff; margin: 10px 0; padding-left: 20px;">
-      <li>Architected decentralized AI verification protocols</li>
-      <li>Led development of cross-chain bridge solutions</li>
-      <li>Implemented automated testing and deployment pipelines</li>
-    </ul>
-    <div style="margin-top: 15px; display: flex; gap: 8px;">
-      <span style="background: rgba(0, 0, 0, 0.3); padding: 5px 10px; border-radius: 5px; color: #fff; font-size: 0.9em;">Solidity</span>
-      <span style="background: rgba(0, 0, 0, 0.3); padding: 5px 10px; border-radius: 5px; color: #fff; font-size: 0.9em;">TypeScript</span>
-      <span style="background: rgba(0, 0, 0, 0.3); padding: 5px 10px; border-radius: 5px; color: #fff; font-size: 0.9em;">Docker</span>
-    </div>
-  </div>
-
 </div>
 
 <div align="center">
@@ -236,43 +167,10 @@ pub struct TokenVault {
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; padding: 20px;">
 
-  <!-- Project Card 1 -->
-  <div style="background: rgba(255, 255, 255, 0.05); border-radius: 16px; padding: 20px; backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.1); transition: transform 0.2s;">
-    <h3 style="color: #14F195; margin-bottom: 10px;">TrustLedger AI</h3>
-    <p style="color: #ccc; font-size: 0.9em;">2023 - Present</p>
-    <p style="color: #fff; margin: 10px 0;">Blockchain-powered AI verification system with smart contract integration and decentralized identity management.</p>
-    <div style="margin-top: 15px;">
-      <code style="background: rgba(20, 241, 149, 0.1); padding: 5px 10px; border-radius: 5px; margin-right: 5px;">Solana</code>
-      <code style="background: rgba(97, 218, 251, 0.1); padding: 5px 10px; border-radius: 5px; margin-right: 5px;">React</code>
-      <code style="background: rgba(255, 255, 255, 0.1); padding: 5px 10px; border-radius: 5px;">Rust</code>
-    </div>
-  </div>
+ 
 
-  <!-- Project Card 2 -->
-  <div style="background: rgba(255, 255, 255, 0.05); border-radius: 16px; padding: 20px; backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.1); transition: transform 0.2s;">
-    <h3 style="color: #61DAFB; margin-bottom: 10px;">DeFi Protocol</h3>
-    <p style="color: #ccc; font-size: 0.9em;">2022 - 2023</p>
-    <p style="color: #fff; margin: 10px 0;">Decentralized finance protocol with automated market making and yield optimization strategies.</p>
-    <div style="margin-top: 15px;">
-      <code style="background: rgba(20, 241, 149, 0.1); padding: 5px 10px; border-radius: 5px; margin-right: 5px;">Ethereum</code>
-      <code style="background: rgba(97, 218, 251, 0.1); padding: 5px 10px; border-radius: 5px; margin-right: 5px;">Web3.js</code>
-      <code style="background: rgba(255, 255, 255, 0.1); padding: 5px 10px; border-radius: 5px;">Solidity</code>
-    </div>
-  </div>
 
-  <!-- Project Card 3 -->
-  <div style="background: rgba(255, 255, 255, 0.05); border-radius: 16px; padding: 20px; backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.1); transition: transform 0.2s;">
-    <h3 style="color: #14F195; margin-bottom: 10px;">NFT Marketplace</h3>
-    <p style="color: #ccc; font-size: 0.9em;">2022</p>
-    <p style="color: #fff; margin: 10px 0;">Full-stack NFT marketplace with multi-chain support, metadata indexing, and real-time bidding system.</p>
-    <div style="margin-top: 15px;">
-      <code style="background: rgba(20, 241, 149, 0.1); padding: 5px 10px; border-radius: 5px; margin-right: 5px;">Node.js</code>
-      <code style="background: rgba(97, 218, 251, 0.1); padding: 5px 10px; border-radius: 5px; margin-right: 5px;">MongoDB</code>
-      <code style="background: rgba(255, 255, 255, 0.1); padding: 5px 10px; border-radius: 5px;">TypeScript</code>
-    </div>
-  </div>
-
-</div>
+ 
 
 ## <svg width="24" height="24" viewBox="0 0 24 24" fill="none" style="vertical-align: middle; margin-right: 8px;">
   <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 14H4V8l8 5 8-5v10zm-8-7L4 6h16l-8 5z" fill="#14F195"/>
