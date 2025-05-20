@@ -32,7 +32,9 @@
   <img src="https://i.imgur.com/dBaSKWF.gif" height="20" width="100%">
 </div>
 
-<img align="right" alt="Coding" width="400" src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNmZiMzM2ZTBkMzBmZGY5ZDM4NjQ2ZjM5NzY0NmM1NzM0ZmJiZjNlYiZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/qgQUggAC3Pfv687qPC/giphy.gif">
+<div align="right">
+  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=600&size=22&duration=2000&pause=1000&color=14F195&center=true&vCenter=true&multiline=true&repeat=true&width=435&height=100&lines=Building+Smart+Contracts;Crafting+Web3+Solutions;Innovating+with+Blockchain" alt="Coding Animation"/>
+</div>
 
 ## 🚀 About Me
 
@@ -138,45 +140,6 @@ pub struct TokenVault {
   </p>
 </div>
 
-## 🎵 Development Playlist
-
-<div align="center">
-
-# 🎧 Now Playing: Web3 Symphony in Full Stack Major
-
-<br>
-
-<div align="center">
-  <img width="70" height="70" src="https://img.icons8.com/ios-filled/50/FFFFFF/skip-to-start--v1.png" alt="skip-to-start"/>
-  &nbsp;&nbsp;&nbsp;
-  <img width="70" height="70" src="https://img.icons8.com/ios-filled/50/FFFFFF/rewind.png" alt="rewind"/>
-  &nbsp;&nbsp;&nbsp;
-  <img width="70" height="70" src="https://img.icons8.com/ios-filled/50/FFFFFF/play.png" alt="play" style="background: #0088ff; border-radius: 8px;"/>
-  &nbsp;&nbsp;&nbsp;
-  <img width="70" height="70" src="https://img.icons8.com/ios-filled/50/FFFFFF/fast-forward.png" alt="fast-forward"/>
-  &nbsp;&nbsp;&nbsp;
-  <img width="70" height="70" src="https://img.icons8.com/ios-filled/50/FFFFFF/end.png" alt="end"/>
-</div>
-
-<br>
-
-<div align="right" style="padding-right: 20px;">
-  <code style="color: #fff;">12:30 / 45:00</code>
-</div>
-
-<br>
-
-```
-🎼 Dev Playlist:
-├── 01. Blockchain Beat    ▶️
-├── 02. Solana Sonata
-├── 03. Ethereum Etude
-├── 04. React Remix
-└── 05. Node.js Nocturne
-```
-
-</div>
-
 <div align="center">
   <img src="https://komarev.com/ghpvc/?username=sagarregmi2057&label=Profile%20views&color=61DAFB&style=flat" alt="Profile views"/>
 </div>
@@ -187,48 +150,3 @@ pub struct TokenVault {
 
 </div>
 
-```mermaid
-graph TD
-    classDef blockchain fill:#14F195,stroke:#13D185,stroke-width:2px,color:white;
-    classDef frontend fill:#61DAFB,stroke:#50C9EA,stroke-width:2px,color:white;
-    classDef backend fill:#FF6B6B,stroke:#EE5A5A,stroke-width:2px,color:white;
-    classDef database fill:#845EF7,stroke:#734DE6,stroke-width:2px,color:white;
-
-    Client[("🌐 Client\nWeb/Mobile")] --> Frontend["⚛️ Frontend\nReact + TypeScript"]
-    Frontend --> Backend["🔧 Backend\nNode.js + Express"]
-    Backend --> Blockchain["⛓️ Blockchain Layer"]
-    Backend --> Database[("🗄️ Database\nMongoDB")]
-    
-    subgraph Blockchain ["🔗 Blockchain Infrastructure"]
-        direction TB
-        Solana["☀️ Solana Programs\nRust + Anchor"] --> SolanaNet["Solana Network"]
-        Ethereum["⟠ Ethereum Contracts\nSolidity"] --> EthNet["Ethereum Network"]
-    end
-
-    subgraph Frontend ["🎨 Frontend Components"]
-        direction TB
-        UI["UI Components"] --> State["State Management"]
-        State --> Web3["Web3 Integration"]
-    end
-
-    subgraph Backend ["🛠️ Backend Services"]
-        direction TB
-        API["REST API"] --> Auth["Authentication"]
-        Auth --> Services["Business Logic"]
-        Services --> Cache["Redis Cache"]
-    end
-
-    style Blockchain fill:#0d1117,stroke:#14F195,stroke-width:2px;
-    style Frontend fill:#0d1117,stroke:#61DAFB,stroke-width:2px;
-    style Backend fill:#0d1117,stroke:#FF6B6B,stroke-width:2px;
-
-    class Solana,SolanaNet blockchain;
-    class Ethereum,EthNet blockchain;
-    class UI,State,Web3 frontend;
-    class API,Auth,Services,Cache backend;
-    class Database database;
-```
-
-<div align="center">
-  <sub><i>Interactive architecture diagram showcasing the full-stack blockchain ecosystem</i></sub>
-</div>
