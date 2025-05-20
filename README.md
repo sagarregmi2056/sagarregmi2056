@@ -104,35 +104,27 @@ const developer = {
   </p>
 </div>
 
-## 🎵 Development Playlist:
+## 🎵 Development Playlist
 
-<div align="center" style="background: rgba(26, 28, 44, 0.5); padding: 20px; border-radius: 10px; backdrop-filter: blur(5px);">
-  <div style="border: 1px solid #2a2d3e; padding: 15px; border-radius: 8px; background: rgba(0, 0, 0, 0.2);">
-    <p align="left" style="font-family: monospace; color: #61DAFB;">
-      🎧 Now Playing: Web3 Symphony in Full Stack Major
-    </p>
-    <div style="display: flex; align-items: center; justify-content: center; margin: 10px 0;">
-      ⏮️ ⏪ ▶️ ⏩ ⏭️
-    </div>
-    <div style="background: #2a2d3e; height: 4px; width: 100%; border-radius: 2px; margin: 10px 0;">
-      <div style="background: #61DAFB; width: 45%; height: 100%; border-radius: 2px;"></div>
-    </div>
-    <p align="right" style="font-family: monospace; color: #61DAFB;">12:30 / 45:00</p>
-    
-    <div style="margin-top: 15px; text-align: left; font-family: monospace;">
-      🎼 Dev Playlist:
-      <br/>
-      ├── 01. Blockchain Beat        ▶️
-      <br/>
-      ├── 02. Solana Sonata         
-      <br/>
-      ├── 03. Ethereum Etude        
-      <br/>
-      ├── 04. React Remix           
-      <br/>
-      └── 05. Node.js Nocturne      
-    </div>
-  </div>
+<h3 align="center">🎧 Now Playing: Web3 Symphony in Full Stack Major</h3>
+
+<div align="center">
+
+⏮️ &nbsp;&nbsp; ⏪ &nbsp;&nbsp; ▶️ &nbsp;&nbsp; ⏩ &nbsp;&nbsp; ⏭️
+
+<img src="https://progress-bar.dev/45/?title=Progress&width=500&color=61DAFB">
+
+<p align="right"><code>12:30 / 45:00</code></p>
+
+```
+🎼 Dev Playlist:
+├── 01. Blockchain Beat    ▶️
+├── 02. Solana Sonata
+├── 03. Ethereum Etude
+├── 04. React Remix
+└── 05. Node.js Nocturne
+```
+
 </div>
 
 <div align="center">
