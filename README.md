@@ -77,10 +77,8 @@ const developer = {
   <div style="background: rgba(255, 255, 255, 0.05); border-radius: 16px; padding: 20px; backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.1); transition: transform 0.2s;">
     <div style="display: flex; align-items: center; margin-bottom: 15px;">
       <div style="display: flex; align-items: center;">
-        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" style="margin-right: 12px;">
-          <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" stroke="#14F195" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-        </svg>
-        <h3 style="color: #14F195; margin: 0; font-size: 1.5em;">CheckerChain</h3>
+        <img src="https://img.icons8.com/fluency/48/blockchain-technology.png" width="32" height="32" style="margin-right: 12px;"/>
+        <h3 style="color: #00E676; margin: 0; font-size: 1.5em;">CheckerChain</h3>
       </div>
       <p style="color: #ccc; margin: 0 0 0 auto; font-size: 0.9em;">2023 - Present</p>
     </div>
@@ -101,11 +99,8 @@ const developer = {
   <div style="background: rgba(255, 255, 255, 0.05); border-radius: 16px; padding: 20px; backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.1); transition: transform 0.2s;">
     <div style="display: flex; align-items: center; margin-bottom: 15px;">
       <div style="display: flex; align-items: center;">
-        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" style="margin-right: 12px;">
-          <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z" stroke="#61DAFB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-          <path d="M12 22v-8M12 2v8M17 5l-5 3-5-3M17 19l-5-3-5 3" stroke="#61DAFB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-        </svg>
-        <h3 style="color: #61DAFB; margin: 0; font-size: 1.5em;">BotOverload</h3>
+        <img src="https://img.icons8.com/fluency/48/bot.png" width="32" height="32" style="margin-right: 12px;"/>
+        <h3 style="color: #FF4081; margin: 0; font-size: 1.5em;">BotOverload</h3>
       </div>
       <p style="color: #ccc; margin: 0 0 0 auto; font-size: 0.9em;">2022 - 2023</p>
     </div>
@@ -126,11 +121,8 @@ const developer = {
   <div style="background: rgba(255, 255, 255, 0.05); border-radius: 16px; padding: 20px; backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.1); transition: transform 0.2s;">
     <div style="display: flex; align-items: center; margin-bottom: 15px;">
       <div style="display: flex; align-items: center;">
-        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" style="margin-right: 12px;">
-          <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" stroke="#FF6B6B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-          <path d="M8 11l3 3 5-5" stroke="#FF6B6B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-        </svg>
-        <h3 style="color: #FF6B6B; margin: 0; font-size: 1.5em;">TrustLedger AI</h3>
+        <img src="https://img.icons8.com/fluency/48/trust.png" width="32" height="32" style="margin-right: 12px;"/>
+        <h3 style="color: #7C4DFF; margin: 0; font-size: 1.5em;">TrustLedger AI</h3>
       </div>
       <p style="color: #ccc; margin: 0 0 0 auto; font-size: 0.9em;">2021 - 2022</p>
     </div>
@@ -297,5 +289,6 @@ pub struct TokenVault {
 </div>
 
 </div>
+
 
 
