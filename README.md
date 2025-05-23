@@ -167,7 +167,13 @@ pub struct TokenVault {
 
  
 
+## My Coding Mood 🎯
 
+> "Simplicity is the soul of efficiency." - Austin Freeman
+
+[![Powered by Mood Coding](https://img.shields.io/badge/Powered%20by-Mood%20Coding%20🎯-blueviolet)](https://github.com/sagarregmi2056/Mood-Coding)
+
+*Shared via [Mood Coding](https://marketplace.visualstudio.com/items?itemName=sagarregmi2056.mood-coding) - The mindful VS Code extension*
  
 
 ## <svg width="24" height="24" viewBox="0 0 24 24" fill="none" style="vertical-align: middle; margin-right: 8px;">
