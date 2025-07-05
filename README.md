@@ -24,7 +24,7 @@ Me: Trained on buffering YouTube videos at 144p.
     <img src="https://img.shields.io/badge/Ethereum-Developer-gradient?style=for-the-badge&logo=ethereum&logoColor=white&labelColor=3C3C3D&color=000000"/>
   </a>
   
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&duration=4000&pause=1000&color=61DAFB&center=true&vCenter=true&width=435&lines=Full+Stack+Developer;Blockchain+Developer;Smart+Contract+Expert;Web3+Innovator" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&duration=4000&pause=1000&color=61DAFB&center=true&vCenter=true&width=435&lines=Full+Stack+Developer;Backend+Developer;Web3+Innovator" alt="Typing SVG" />
   
   [![GitHub followers](https://img.shields.io/github/followers/sagarregmi2057?label=Follow&style=social)](https://github.com/sagarregmi2057)
   [![Linkedin: sagar-regmi](https://img.shields.io/badge/-Sagar%20Regmi-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/sagar-regmi-60b377216/)](https://www.linkedin.com/in/sagar-regmi-60b377216/)
