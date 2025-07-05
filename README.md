@@ -2,7 +2,10 @@
 
 # <div align="center" style="background: rgba(255, 255, 255, 0.1); padding: 20px; border-radius: 16px; backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.1);">
   <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35" alt="wave"/> 
-  Hi, I'm Sagar Regmi
+ Therapist: “You need more patience.”
+Me: Trained on buffering YouTube videos at 144p.
+
+
 </div>
 
 <div align="center" style="margin: 30px 0;">
@@ -26,36 +29,6 @@
   [![GitHub followers](https://img.shields.io/github/followers/sagarregmi2057?label=Follow&style=social)](https://github.com/sagarregmi2057)
   [![Linkedin: sagar-regmi](https://img.shields.io/badge/-Sagar%20Regmi-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/sagar-regmi-60b377216/)](https://www.linkedin.com/in/sagar-regmi-60b377216/)
 </div>
-
-
-
-
-```javascript
-const developer = {
-    name: "Sagar Regmi",
-    location: "Nepal",
-    company: "TrustledgerAi.com",
-    roles: [
-        "Full Stack Developer",
-        "Blockchain Developer",
-        "Smart Contract Engineer"
-    ],
-    focus: [
-        "Node.js",
-        "React",
-        "Solana",
-        "Ethereum",
-        "Rust",
-        "Web3"
-    ],
-    currentLearning: "Zero Knowledge Proofs",
-    funFact: "I debug smart contracts in my dreams"
-};
-```
-
-
-
-
 
 ## <svg width="24" height="24" viewBox="0 0 24 24" fill="none" style="vertical-align: middle; margin-right: 8px;">
   <path d="M22 9V7h-2V5c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2v-2h2v-2h-2v-2h2v-2h-2V9h2zm-4 10H4V5h14v14zM6 13h5v4H6zm6-6h4v3h-4zM6 7h5v5H6zm6 4h4v6h-4z" fill="#14F195"/>
