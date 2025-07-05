@@ -27,20 +27,8 @@
   [![Linkedin: sagar-regmi](https://img.shields.io/badge/-Sagar%20Regmi-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/sagar-regmi-60b377216/)](https://www.linkedin.com/in/sagar-regmi-60b377216/)
 </div>
 
-<div align="center">
-  <!-- Gradient line -->
-  <img src="https://i.imgur.com/dBaSKWF.gif" height="20" width="100%" style="margin: 20px 0;"/>
-</div>
 
-<div align="right" style="background: rgba(20, 241, 149, 0.1); padding: 20px; border-radius: 16px; backdrop-filter: blur(10px); border: 1px solid rgba(20, 241, 149, 0.2); margin: 20px 0;">
-  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=600&size=22&duration=2000&pause=1000&color=14F195&center=true&vCenter=true&multiline=true&repeat=true&width=435&height=100&lines=Building+Smart+Contracts;Crafting+Web3+Solutions;Innovating+with+Blockchain" alt="Coding Animation"/>
-</div>
 
-## <svg width="24" height="24" viewBox="0 0 24 24" fill="none" style="vertical-align: middle; margin-right: 8px;">
-  <path d="M13 7h-2v2h2V7zm0 4h-2v6h2v-6zm-1-9C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z" fill="#14F195"/>
-</svg> About Me
-
-<div style="background: rgba(255, 255, 255, 0.05); padding: 20px; border-radius: 16px; backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.1);">
 
 ```javascript
 const developer = {
@@ -65,44 +53,9 @@ const developer = {
 };
 ```
 
-</div>
 
 
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; padding: 20px;">
-  
-</div>
 
-<div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&duration=2000&pause=1000&color=14F195&center=true&vCenter=true&multiline=true&width=800&height=384&lines=%23[program];pub+mod+token_vault+%7B;++++use+anchor_lang::prelude::*%3B;++++%23[derive(Accounts)];++++pub+struct+Initialize%3C'info%3E+%7B;++++++++%23[account(init%2C+payer+%3D+authority)];++++++++pub+vault%3A+Account%3C'info%2C+TokenVault%3E%2C;++++++++pub+authority%3A+Signer%3C'info%3E%2C;++++++++pub+system_program%3A+Program%3C'info%2C+System%3E;++++%7D;++++pub+fn+initialize(ctx%3A+Context%3CInitialize%3E)+-%3E+Result%3C()%3E+%7B;++++++++msg!(%22%F0%9F%9A%80+Initializing+token+vault...%22)%3B;++++++++Ok(()));++++%7D;%7D" alt="Typing SVG" />
-</div>
-
-<!-- Static Code Display -->
-```rust
-#[program]
-pub mod token_vault {
-    use anchor_lang::prelude::*;
-
-    #[derive(Accounts)]
-    pub struct Initialize<'info> {
-        #[account(init, payer = authority)]
-        pub vault: Account<'info, TokenVault>,
-        pub authority: Signer<'info>,
-        pub system_program: Program<'info, System>
-    }
-
-    pub fn initialize(ctx: Context<Initialize>) -> Result<()> {
-        msg!("🚀 Initializing token vault...");
-        Ok(())
-    }
-}
-
-#[account]
-pub struct TokenVault {
-    pub authority: Pubkey,    // 32
-    pub token_mint: Pubkey,   // 32
-    pub token_account: Pubkey // 32
-}
-```
 
 ## <svg width="24" height="24" viewBox="0 0 24 24" fill="none" style="vertical-align: middle; margin-right: 8px;">
   <path d="M22 9V7h-2V5c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2v-2h2v-2h-2v-2h2v-2h-2V9h2zm-4 10H4V5h14v14zM6 13h5v4H6zm6-6h4v3h-4zM6 7h5v5H6zm6 4h4v6h-4z" fill="#14F195"/>
@@ -163,34 +116,8 @@ pub struct TokenVault {
 
 
 
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; padding: 20px;">
 
  
-
-## My Coding Mood 🎯
-
-> "Simplicity is the soul of efficiency." - Austin Freeman
-
-[![Powered by Mood Coding](https://img.shields.io/badge/Powered%20by-Mood%20Coding%20🎯-blueviolet)](https://github.com/sagarregmi2056/Mood-Coding)
-
-*Shared via [Mood Coding](https://marketplace.visualstudio.com/items?itemName=sagarregmi2056.mood-coding) - The mindful VS Code extension*
- 
-
-## <svg width="24" height="24" viewBox="0 0 24 24" fill="none" style="vertical-align: middle; margin-right: 8px;">
-  <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 14H4V8l8 5 8-5v10zm-8-7L4 6h16l-8 5z" fill="#14F195"/>
-</svg> Let's Connect
-
-<div style="background: rgba(255, 255, 255, 0.05); padding: 30px; border-radius: 16px; backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.1); margin: 20px 0; text-align: center;">
-  <h3 style="color: #14F195; margin-bottom: 20px;">Get in Touch</h3>
-  <p style="color: #fff; margin-bottom: 20px;">Interested in collaborating or have a project in mind? Let's connect and discuss!</p>
-  <div style="display: flex; justify-content: center; gap: 20px;">
-    <a href="https://github.com/sagarregmi2057" target="_blank" style="color: #fff; text-decoration: none; background: rgba(15, 8, 8, 0.74); padding: 10px 20px; border-radius: 8px; transition: all 0.3s;">GitHub</a>
-    <a href="https://www.linkedin.com/in/sagar-regmi-60b377216/" target="_blank" style="color: #fff; text-decoration: none; background: rgba(255, 255, 255, 0.1); padding: 10px 20px; border-radius: 8px; transition: all 0.3s;">LinkedIn</a>
-    <a href="mailto:sagarregmi2056@gmail..com" target="_blank" style="color: #fff; text-decoration: none; background: rgba(255, 255, 255, 0.1); padding: 10px 20px; border-radius: 8px; transition: all 0.3s;">Email</a>
-  </div>
-</div>
-
-</div>
 
 
 
