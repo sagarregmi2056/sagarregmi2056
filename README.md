@@ -2,8 +2,8 @@
 
 # <div align="center" style="background: rgba(255, 255, 255, 0.1); padding: 20px; border-radius: 16px; backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.1);">
   <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35" alt="wave"/> 
- Therapist: “You need more patience.”
-Me: Trained on buffering YouTube videos at 144p.
+Be a monk in spirit, a dev in action.
+Code like Shiva dancing — conscious, precise, free.
 
 
 </div>
