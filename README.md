@@ -53,6 +53,9 @@
 
 <div align="center" style="margin-top: 40px;">
   <sub>Built with ❤️ and 🦀 Rust | Powered by ⚡ Solana and 🌐 Web3 | Crafted by Sagar Regmi</sub>
+
+
+  Currently Learning devops ->https://github.com/sagarregmi2057
 </div>
 
 
